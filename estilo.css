@@ -1,0 +1,174 @@
+
+@import 'https://fonts.googleapis.com/css?family=Lobster|Stint+Ultra+Condensed|ABeeZee|Cormorant+Garamond|BenchNine';
+@import 'https://fonts.googleapis.com/css?family=Anton';
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC|Anton';
+
+body {
+  background-color: #fcf6e8; 
+  color: #5d665b; 
+  margin: 50px;
+  font-family: Verdana, Geneva, Arial, sans-serif; 
+  font-size: small; 
+  line-height: 180%;
+}
+
+.logo-top {
+    position: relative;
+    width: 99%;  
+    height: 750px; 
+    float: top;
+    padding: -20px;
+    background-image: url(_imagens/estradao.jpg);
+    margin-bottom: 70px;
+}
+.titulo {
+    padding: 5px;
+    margin-left: 20px; 
+    margin-bottom: 25%;
+}
+.titulo h1{
+    font-size: 73.981px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: #fff;
+    font-family:  'Anton', sans-serif;
+    text-transform: uppercase; 
+    text-shadow: #000 1px 1px 1px, #606060 -1px -1px 1px;
+
+}
+.sub-titulo {
+    padding: 5px; 
+    margin-left: 20px; 
+    width: 60%;
+}
+
+.sub-titulo h3 {
+    text-align: left;
+    color: #fff;
+    text-shadow: #000 1px 1px 1px, #606060 -1px -1px 1px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 39pt;
+}
+.capa-livro {
+    position: absolute; 
+    left: 68%;
+    bottom: -500%;
+    margin: 30px; 
+    
+}
+img#capa-livro {
+
+    width: 350px;
+    height: 498px;
+    box-shadow: #000 0px 0px 5px;
+    
+}
+.foto-apresentacao {
+    position: relative;
+    width: 50%; 
+    height: 50%; 
+    left: 25%;
+    /*border-radius: 100px; */
+    margin-top: 70px; 
+}
+.apresentacao {
+    position: absolute; 
+    left: 33%;
+    width: 500px; 
+
+}
+article#apresentacao-artigo {
+    text-align: justify; 
+    margin: 0; 
+}
+
+img#bar-enter {
+    position: absolute; 
+    left: 2%;
+    top: 95%;  
+    width: 340px; 
+
+}
+img#escreve-bar {
+    position: absolute;
+    bottom: -80%; 
+    left: 1250px; 
+    width: 270px; 
+}
+
+.coluna-texto {
+    position: relative;
+    width: 800px;  
+    padding: 45px;  
+    left: 20%;
+    background-color:#f8f9e0;
+}
+article#primeiro-texto p{
+    text-indent: 50px; 
+    text-align: justify; 
+    
+}
+
+article#primeiro-texto h2, h3 {
+    text-indent: 1%; 
+    text-align: center;
+    color: #606060; 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 170%; 
+
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+
+
+footer {
+   
+    height: 120px;
+    width: 300px; 
+    position: absolute;
+    color: #FFF;
+    bottom: -300%;
+    margin: 30px; 
+    background-color: #ceaf67;
+    border-radius: 0px; 
+    transition: 1s;
+}
+
+.rodape {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 9pt; 
+
+}
+.rodape a {
+    text-decoration: none;
+    color: #606060;
+    transition: 1s; 
+
+}
+.rodape a:hover {
+    text-decoration: underline; 
+    color: #b20c0c;
+}
+
+/* Media Queries*/
+@media (max-width: 480px) {
+  .title {
+    font-size: 14px
+  }  
+}
+
+@media (max-width: 979px) {
+  .title {
+    font-size: 18px
+  }  
+}
+
+@media (min-width: 980px) {
+  .title {
+    font-size: 22px
+  }
+}
