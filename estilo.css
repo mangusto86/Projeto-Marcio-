@@ -18,7 +18,7 @@ body {
     height: 750px; 
     float: top;
     padding: -20px;
-    background-image: url(_imagens/estradao.jpg);
+    background-image: url(_imagens/coffee-mug-cup-table-notebook-netbook.jpg);
     margin-bottom: 70px;
 }
 .titulo {
@@ -52,7 +52,7 @@ body {
 .capa-livro {
     position: absolute; 
     left: 68%;
-    bottom: -500%;
+    bottom: -138%;
     margin: 30px; 
     
 }
@@ -130,7 +130,7 @@ footer {
     width: 300px; 
     position: absolute;
     color: #FFF;
-    bottom: -300%;
+    bottom: -138%;
     margin: 30px; 
     background-color: #ceaf67;
     border-radius: 0px; 
