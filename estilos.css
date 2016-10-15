@@ -14,6 +14,7 @@ header {
     background-position: top center; 
     height: 100%;
 }
+
 header h1 {
     margin-bottom: 20px;
     margin-top: 10px; 
@@ -33,23 +34,23 @@ header h1 {
     transform: translate(-50%, 10%); 
 }
 .titulo-depoimento {
-    background-color: #0275D8; 
+    background-color: #f9e248; 
     padding-top: 25px;
     padding-bottom: 25px;  
     color: #fff; 
     margin-bottom: 0; 
     font-size: 22px; 
 }
-.grupo-radio,
-.contato-select{
+#contato{
     width: 50%; 
     display: inline-block; 
-    vertical-align: top;
     margin-bottom: 15px; 
-}
-.contato-select {
     margin-top: 15px;
 }
+.contato-select {
+    
+}
+
 footer{
     background-color: #333;
     color: #fff; 
