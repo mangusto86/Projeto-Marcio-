@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+#paineis-sobre {
+	margin-top: 20px;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: #fcf6e8; 
+  	color: #5d665b; 
+}
+
+header {
+	background-image: url(../img/road.jpg);
+	background-size: cover;
+	background-position: top center;
+	height: 100%;
+}
+
+header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.coluna-texto P:first-letter { 
+font-size: 500%; 
+color: #5d665b; font-weight: bold;
+font-family:'Covered By Your Grace', cursive;
+}
+
+
+.topCasaFina-banner {
+	color: #FFF;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 20px;
+	width: 80%;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s;
+}
+section#sobre-nos {
+	margin-bottom: 30px;
+}
+
+.titulo-depoimentos {
+	background-color: #0275D8;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #FFF;
+	margin-bottom: 0;
+	font-size: 24px;
+	width: 100%;
+}
+.jumbotron {
+	background-color: #f2d36f;
+	
+}
+.contato-select,
+.grupo-radio {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.grupo-radio .radio:first-child {
+	margin-top: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #FFF;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+footer address:last-child {
+	margin-bottom: 0;
+}
+
+ 
+@media(min-width: 768px) {
+	#paineis-sobre {
+		margin-top: 0;	
+	}
+}
+
+@media(min-width: 992px) {
+	.topCasaFina-banner {
+		left: 0;
+		transform: translate(0, -80%);
+		width: 50%;
+	}
+
+	.topCasaFina-bannerWrapper {
+		position: relative;
+		height: 100%;
+	}
+}
+@media(min-width: 968px) {
+section#depoimentos {
+	position: relative;
+	width: 60%; 
+	left: 20%;
+}
+}
+
+
+
